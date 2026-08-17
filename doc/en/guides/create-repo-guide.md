@@ -1,12 +1,12 @@
 <!--
 @license
-Copyright (c) dnaCopyrightHolder
+Copyright (c) ggsuite
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# Create a new dnaGitOrg repository
+# Create a new ggsuite repository
 
 
 ## Copy this file to tmp
@@ -29,7 +29,7 @@ Replace `A 60-70 char description of my new project` by a short project descript
 
 ## Create a repo
 
-Open <https://github.com/dnaGitOrgUrl>
+Open <https://github.com/https://github.com/ggsuite>
 
 Select `Repositories`
 
@@ -58,7 +58,7 @@ node scripts/setup-github-repo.js
 
 Want to apply the changes manually? Do this:
 
-Open <https://github.com/dnaGitOrgUrl/my_new_repo>
+Open <https://github.com/https://github.com/ggsuite/my_new_repo>
 
 Click `Settings`
 
@@ -111,7 +111,7 @@ When asked, Authenticate
 
 ## Let branches be deleted after the merge
 
-Open <https://github.com/dnaGitOrgUrl/my_new_repo>
+Open <https://github.com/https://github.com/ggsuite/my_new_repo>
 
 Click `Settings`
 
@@ -131,7 +131,7 @@ Apply the following settings:
 Checkout the project
 
 ```bash
-git clone git@github.com:dnaGitOrgUrl/my_new_repo.git
+git clone git@github.com:https://github.com/ggsuite/my_new_repo.git
 cd my_new_repo
 dart pub upgrade
 ```
@@ -204,6 +204,6 @@ Below `Select a publisher`, click on the `empty dropdown`
 
 Select `Transfer to publisher`
 
-Select `dnaPubDevPublisher`
+Select `inlavigo.com`
 
 On the `appearing dialog`, click `ok`

@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) dnaCopyrightHolder
+Copyright (c) ggsuite
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -18,15 +18,15 @@ found in the LICENSE file in the root of this package.
 
 - Replace `~/dev/` by the workspace directory from the memory
 - Ask for the workspace directory if none is known
-- Replace `dnaJiraPrefix-145` by the ticket ID you asked for
+- Replace `gGS-145` by the ticket ID you asked for
 - Replace `Fix issue abc` by the ticket title you asked for
 
 ## Create a ticket
 
 ```bash
 cd ~/dev/ # workspace
-gg do create ticket dnaJiraPrefix-145 -m"Fix issue abc"
-cd tickets/dnaJiraPrefix-145
+gg do create ticket gGS-145 -m"Fix issue abc"
+cd tickets/gGS-145
 ```
 
 ## Add git repositories

@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) dnaCopyrightHolder
+Copyright (c) ggsuite
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -8,7 +8,7 @@ found in the LICENSE file in the root of this package.
 
 # Install gg
 
-`gg` is the unified Dart CLI used for development at dnaCompany. It runs
+`gg` is the unified Dart CLI used for development at ggsuite. It runs
 pre-commit checks in a single repository and orchestrates commits, pushes,
 reviews and publishes across all repositories of a ticket.
 

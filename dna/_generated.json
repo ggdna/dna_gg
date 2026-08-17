@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "layers": [
+    {
+      "name": "base",
+      "package": "helix",
+      "ecosystem": null,
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x6883da335b415f9d"
+    },
+    {
+      "name": "self",
+      "package": null,
+      "ecosystem": null,
+      "resolvedVersion": null,
+      "via": null,
+      "hash": "0xdc52f88e9e5a07df"
+    }
+  ],
+  "claude": {
+    "claudeMdInclude": null
+  },
+  "baseVersion": "0.1.0",
+  "baseHash": "0x6883da335b415f9d",
+  "hash": null,
+  "instances": [
+    {
+      "path": ".github/workflows/quick_check.yaml",
+      "hash": "0x9d65602325504437"
+    },
+    {
+      "path": "doc/en/guides/create-repo-guide.md",
+      "hash": "0x0925c5454082441f"
+    },
+    {
+      "path": "doc/en/guides/develop-guide.md",
+      "hash": "0x8fd0b93c8f90573e"
+    },
+    {
+      "path": "doc/en/guides/develop-without-ai-guide.md",
+      "hash": "0x241d20a063f5deb6"
+    },
+    {
+      "path": "doc/en/guides/for-ai/ai-dev-guide.md",
+      "hash": "0x071fc58b4765a988"
+    },
+    {
+      "path": "doc/en/guides/install-guide/install-gg-guide.md",
+      "hash": "0xb8640db1ebadd8f2"
+    },
+    {
+      "path": "doc/en/guides/install-guide/install-gg-workspace-guide.md",
+      "hash": "0xc8877359f644898d"
+    },
+    {
+      "path": "scripts/delete-feature-branch.js",
+      "hash": "0x219ac0a3635ee644"
+    },
+    {
+      "path": "scripts/functions/colors.js",
+      "hash": "0xdfd97f3804665811"
+    },
+    {
+      "path": "scripts/functions/current-branch.js",
+      "hash": "0xb9ebbadf45893278"
+    },
+    {
+      "path": "scripts/functions/directories.js",
+      "hash": "0x148d4ebb8aa75523"
+    },
+    {
+      "path": "scripts/functions/get-repo-urls.js",
+      "hash": "0x4c7b3897973acec3"
+    },
+    {
+      "path": "scripts/functions/get-version.js",
+      "hash": "0xfe46316558755cf2"
+    },
+    {
+      "path": "scripts/functions/is-clean-repo.js",
+      "hash": "0x8aa95ca51d9d6517"
+    },
+    {
+      "path": "scripts/functions/is-main-up-to-date.js",
+      "hash": "0xe1ab1826d0ddd039"
+    },
+    {
+      "path": "scripts/functions/pull-request-url.js",
+      "hash": "0x5398755a61a59928"
+    },
+    {
+      "path": "scripts/functions/run-command.js",
+      "hash": "0x085b390fcb9256ab"
+    },
+    {
+      "path": "scripts/functions/sync-folders.js",
+      "hash": "0x4f83165fd92ec49d"
+    },
+    {
+      "path": "scripts/rename-class.js",
+      "hash": "0xa9daec4f3ea514b7"
+    },
+    {
+      "path": "scripts/setup-github-repo.js",
+      "hash": "0xff571fadb664af32"
+    },
+    {
+      "path": "scripts/wait-for-pr.js",
+      "hash": "0x1360c661984b78a8"
+    }
+  ]
+}

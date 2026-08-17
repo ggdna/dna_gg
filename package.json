@@ -1,5 +1,5 @@
 {
-  "name": "@tssuite/dna-gg",
+  "name": "@ggdna/dna-gg",
   "version": "0.0.0",
   "description": "DNA layer: gg CLI workflow guides, repo setup scripts and CI check",
   "keywords": [

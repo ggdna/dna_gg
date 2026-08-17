@@ -22,7 +22,7 @@ publish.
 Declare it as a dev-dependency and initialize once:
 
 ```bash
-pnpm add -D @tssuite/dna-gg   # TypeScript projects
+pnpm add -D @ggdna/dna-gg   # TypeScript projects
 dart pub add dev:dna_gg    # Dart projects
 helix init
 ```

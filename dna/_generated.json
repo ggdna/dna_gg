@@ -10,12 +10,28 @@
       "hash": "0x6883da335b415f9d"
     },
     {
+      "name": "dna-install",
+      "package": "dna_install",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.0.0",
+      "via": null,
+      "hash": "0x354a2b4d9e0a34c1"
+    },
+    {
+      "name": "dna-index",
+      "package": "dna_index",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.0.0",
+      "via": null,
+      "hash": "0x097241d3332b587b"
+    },
+    {
       "name": "self",
       "package": null,
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xdbec35d697133a5f"
+      "hash": "0x0086122da957b595"
     }
   ],
   "claude": {
@@ -50,12 +66,8 @@
       "hash": "0xa61b5062f48e430c"
     },
     {
-      "path": "doc/guides/create-repo-guide.md",
-      "hash": "0xe94cbb14b4f9c26a"
-    },
-    {
       "path": "doc/guides/develop-guide.md",
-      "hash": "0x5863e1916da62f74"
+      "hash": "0xbd9fa5efab7af735"
     },
     {
       "path": "doc/guides/develop-without-ai-guide.md",
@@ -66,12 +78,52 @@
       "hash": "0x0baaa7fa78710625"
     },
     {
+      "path": "doc/guides/index-guide.md",
+      "hash": "0xdd831e4a9b1e2a3b"
+    },
+    {
+      "path": "doc/guides/install-guide.md",
+      "hash": "0xbec7e4ca7dfdab38"
+    },
+    {
+      "path": "doc/guides/install-guide/install-brew-on-mac-guide.md",
+      "hash": "0x5bf663dc011c4330"
+    },
+    {
+      "path": "doc/guides/install-guide/install-corepack-guide.md",
+      "hash": "0x906ecd19a3b2366b"
+    },
+    {
+      "path": "doc/guides/install-guide/install-flutter-guide.md",
+      "hash": "0x883c40d890bd3d5e"
+    },
+    {
       "path": "doc/guides/install-guide/install-gg-guide.md",
       "hash": "0xa093431b02c398d6"
     },
     {
       "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
       "hash": "0x846766914bb56a84"
+    },
+    {
+      "path": "doc/guides/install-guide/install-github-cli-guide.md",
+      "hash": "0xcce9cbcd56f78b1f"
+    },
+    {
+      "path": "doc/guides/install-guide/install-node-mac-guide.md",
+      "hash": "0x1f4eb7cf63b5c9db"
+    },
+    {
+      "path": "doc/guides/install-guide/install-node-win-guide.md",
+      "hash": "0x782756eb0ff83a0d"
+    },
+    {
+      "path": "doc/guides/install-guide/install-vscode-guide.md",
+      "hash": "0xa0da6a6877bb94c2"
+    },
+    {
+      "path": "doc/templates/index-template.md",
+      "hash": "0x8249f77900b5a5d3"
     },
     {
       "path": "scripts/delete-feature-branch.js",

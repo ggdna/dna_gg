@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x17e49090ea835220"
+      "hash": "0xaf60797dbaa0eb0a"
     }
   ],
   "claude": {
@@ -30,27 +30,27 @@
       "hash": "0xa61b5062f48e430c"
     },
     {
-      "path": "doc/en/guides/create-repo-guide.md",
+      "path": "doc/guides/create-repo-guide.md",
       "hash": "0xe94cbb14b4f9c26a"
     },
     {
-      "path": "doc/en/guides/develop-guide.md",
+      "path": "doc/guides/develop-guide.md",
       "hash": "0x5863e1916da62f74"
     },
     {
-      "path": "doc/en/guides/develop-without-ai-guide.md",
+      "path": "doc/guides/develop-without-ai-guide.md",
       "hash": "0xde6789e089be0963"
     },
     {
-      "path": "doc/en/guides/for-ai/ai-dev-guide.md",
+      "path": "doc/guides/for-ai/ai-dev-guide.md",
       "hash": "0x0baaa7fa78710625"
     },
     {
-      "path": "doc/en/guides/install-guide/install-gg-guide.md",
+      "path": "doc/guides/install-guide/install-gg-guide.md",
       "hash": "0xa093431b02c398d6"
     },
     {
-      "path": "doc/en/guides/install-guide/install-gg-workspace-guide.md",
+      "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
       "hash": "0x846766914bb56a84"
     },
     {

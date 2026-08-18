@@ -35,7 +35,7 @@ fully merged.
 
 ```bash
 cd ~/dev/ # workspace
-rm -rf tickets/gGS-145
+rm -rf tickets/G_G_S-145
 ```
 
 ## 4. Update the workspace

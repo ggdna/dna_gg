@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xa04c570cc6333a5f"
+      "hash": "0x50bb228783d0b90a"
     }
   ],
   "claude": {
@@ -27,7 +27,7 @@
   "instances": [
     {
       "path": ".claude/skills/cleanup/SKILL.md",
-      "hash": "0xdaeff8340ab51b83"
+      "hash": "0x46bcecb0bd35649a"
     },
     {
       "path": ".claude/skills/commit/SKILL.md",
@@ -43,7 +43,7 @@
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
-      "hash": "0xc6b5521322daf962"
+      "hash": "0xbe09adb28e496e2d"
     },
     {
       "path": ".github/workflows/quick_check.yaml",

@@ -10,15 +10,15 @@ directory if none is known.
 
 ## 1. Ask for the ticket data
 
-- Ticket ID, e.g. `gGS-145`
+- Ticket ID, e.g. `G_G_S-145`
 - Title, one imperative line, e.g. `Fix issue abc`
 
 ## 2. Create the ticket
 
 ```bash
 cd ~/dev/ # workspace
-gg do create ticket gGS-145 -m"Fix issue abc"
-cd tickets/gGS-145
+gg do create ticket G_G_S-145 -m"Fix issue abc"
+cd tickets/G_G_S-145
 ```
 
 ## 3. Choose the repos

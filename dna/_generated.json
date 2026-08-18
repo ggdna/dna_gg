@@ -15,7 +15,7 @@
       "ecosystem": "pub",
       "resolvedVersion": "0.0.0",
       "via": null,
-      "hash": "0x557f49854c166d87"
+      "hash": "0xeb3fa49b0f71c95c"
     },
     {
       "name": "dna-index",
@@ -31,7 +31,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x0086122da957b595"
+      "hash": "0x8c280f30522b8cd1"
     }
   ],
   "claude": {
@@ -39,39 +39,22 @@
   },
   "baseVersion": "0.2.0",
   "baseHash": "0x705e486e88a93125",
-  "hash": null,
   "instances": [
-    {
-      "path": ".claude/skills/cleanup/SKILL.md",
-      "hash": "0xc5c7b7940ab51b83"
-    },
-    {
-      "path": ".claude/skills/commit/SKILL.md",
-      "hash": "0xad0e75ab4d725133"
-    },
-    {
-      "path": ".claude/skills/publish/SKILL.md",
-      "hash": "0xb8e70eff3563f75d"
-    },
-    {
-      "path": ".claude/skills/push/SKILL.md",
-      "hash": "0x76c357ca9933317d"
-    },
-    {
-      "path": ".claude/skills/ticket/SKILL.md",
-      "hash": "0xbc13efe6fa9af962"
-    },
     {
       "path": ".github/workflows/quick_check.yaml",
       "hash": "0xa61b5062f48e430c"
     },
     {
+      "path": "doc/guides/create-repo-guide.md",
+      "hash": "0xe94cbb14b4f9c26a"
+    },
+    {
       "path": "doc/guides/develop-guide.md",
-      "hash": "0xbd9fa5efab7af735"
+      "hash": "0x5863e1916da62f74"
     },
     {
       "path": "doc/guides/develop-without-ai-guide.md",
-      "hash": "0xe74449f72357f23c"
+      "hash": "0xde6789e089be0963"
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",

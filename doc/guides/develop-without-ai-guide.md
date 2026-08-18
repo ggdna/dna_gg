@@ -22,6 +22,12 @@ If you have not done that yet:
 cd ~/dev/
 ```
 
+## Start Claude
+
+```bash
+claude
+```
+
 ## Add tickets
 
 ```bash

@@ -5,12 +5,12 @@ publish.
 
 ## Content
 
-- `dna/doc/en/guides/develop-guide.md`,
+- `dna/doc/guides/develop-guide.md`,
   `develop-without-ai-guide.md`, `for-ai/ai-dev-guide.md` — the ticket
   driven workflow, with and without an AI
-- `dna/doc/en/guides/install-guide/install-gg-guide.md`,
+- `dna/doc/guides/install-guide/install-gg-guide.md`,
   `install-gg-workspace-guide.md` — install `gg` and set up a workspace
-- `dna/doc/en/guides/create-repo-guide.md` — create a new repo and its
+- `dna/doc/guides/create-repo-guide.md` — create a new repo and its
   branch rules
 - `dna/scripts/` — the node scripts the guides call
   (`setup-github-repo.js`, `rename-class.js`, `wait-for-pr.js`,

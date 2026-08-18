@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xaf60797dbaa0eb0a"
+      "hash": "0xa04c570cc6333a5f"
     }
   ],
   "claude": {
@@ -25,6 +25,26 @@
   "baseHash": "0x6883da335b415f9d",
   "hash": null,
   "instances": [
+    {
+      "path": ".claude/skills/cleanup/SKILL.md",
+      "hash": "0xdaeff8340ab51b83"
+    },
+    {
+      "path": ".claude/skills/commit/SKILL.md",
+      "hash": "0xad0e75ab4d725133"
+    },
+    {
+      "path": ".claude/skills/publish/SKILL.md",
+      "hash": "0xb8e70eff3563f75d"
+    },
+    {
+      "path": ".claude/skills/push/SKILL.md",
+      "hash": "0x76c357ca9933317d"
+    },
+    {
+      "path": ".claude/skills/ticket/SKILL.md",
+      "hash": "0xc6b5521322daf962"
+    },
     {
       "path": ".github/workflows/quick_check.yaml",
       "hash": "0xa61b5062f48e430c"
@@ -39,7 +59,7 @@
     },
     {
       "path": "doc/guides/develop-without-ai-guide.md",
-      "hash": "0xde6789e089be0963"
+      "hash": "0xe74449f72357f23c"
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",

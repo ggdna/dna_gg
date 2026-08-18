@@ -5,7 +5,8 @@
   "version": 1,
   "role": "dna",
 
-  // No parent DNA. This layer is orthogonal: it carries only its own topic
-  // and is combined with dna_base and other layers by the consumer.
-  "layers": []
+  // The parent DNAs. dna_install brings the install overview this layer
+  // extends with the gg install guides, dna_index the index conventions
+  // every gg repo follows. Parents first, this layer wins.
+  "layers": ["dna_install", "dna_index"]
 }

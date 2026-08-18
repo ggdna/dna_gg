@@ -1,0 +1,7 @@
+# The parent DNAs are not published yet — resolve them from the sibling
+# folders of the workspace until they are on pub.dev.
+dependency_overrides:
+  dna_install:
+    path: ../dna_install
+  dna_index:
+    path: ../dna_index

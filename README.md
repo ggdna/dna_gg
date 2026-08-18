@@ -27,10 +27,19 @@ dart pub add dev:dna_gg    # Dart projects
 helix init
 ```
 
-The placed test instantiates and verifies the DNA on every test run. This
-layer sits on top of
-[dna_base](https://github.com/ggsuite/dna_base) — everything generic comes
-from there, this repo only adds its own topic.
+The placed test instantiates and verifies the DNA on every test run.
+
+This layer inherits from
+[dna_install](https://github.com/ggdna/dna_install) and
+[dna_index](https://github.com/ggdna/dna_index); both come along as regular
+dependencies. It extends the install overview of `dna_install`: a
+`dna/doc/guides/install-guide.overrides.md` replaces the tagged section
+`## [@tooling] Tooling`, adds `Install gg` and appends the `## Workspace`
+section pointing at the gg workspace guide.
+
+The parents are not on pub.dev or npm yet — until they are, a
+`pubspec_overrides.yaml` resolves them from the sibling folders of the
+workspace, and this package cannot be published.
 
 ## Development
 

@@ -27,6 +27,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@ggdna/dna-index": "^0.0.0",
+    "@ggdna/dna-install": "^0.0.0"
+  },
   "scripts": {
     "test:dart": "dart test",
     "test": "pnpm run test:dart",

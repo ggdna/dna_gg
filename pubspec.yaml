@@ -11,6 +11,6 @@ dependencies:
   dna_install: ^0.1.0
 
 dev_dependencies:
-  helix: ^1.0.0
+  helix: ^1.0.1
   lints: ^6.1.0
   test: ^1.31.2

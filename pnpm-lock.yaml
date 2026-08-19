@@ -13,11 +13,14 @@ importers:
   .:
     dependencies:
       '@ggdna/dna-index':
-        specifier: link:..\dna_index
+        specifier: link:../dna_index
         version: link:../dna_index
       '@ggdna/dna-install':
-        specifier: link:..\dna_install
+        specifier: link:../dna_install
         version: link:../dna_install
+      '@ggdna/dna-scripts':
+        specifier: ^0.1.0
+        version: 0.1.0
     devDependencies:
       '@types/node':
         specifier: ^26.2.0
@@ -27,6 +30,10 @@ importers:
         version: 3.9.6
 
 packages:
+
+  '@ggdna/dna-scripts@0.1.0':
+    resolution: {integrity: sha512-wDrYb0klJkOnoB9x4X5NTQ6C6pkxa4sjBmiDJPGXiivL1SkkNVCFW6vYsShaeXNG6e9nMDKfuAkCh702XRMDhw==}
+    engines: {node: '>=22'}
 
   '@types/node@26.2.0':
     resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
@@ -40,6 +47,8 @@ packages:
     resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
 
 snapshots:
+
+  '@ggdna/dna-scripts@0.1.0': {}
 
   '@types/node@26.2.0':
     dependencies:

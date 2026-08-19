@@ -11,19 +11,27 @@
     },
     {
       "name": "dna-install",
-      "package": "@ggdna/dna-install",
-      "ecosystem": "node",
+      "package": "dna_install",
+      "ecosystem": "pub",
       "resolvedVersion": "0.1.0",
       "via": null,
       "hash": "0xbe88eb4256745ee1"
     },
     {
       "name": "dna-index",
-      "package": "@ggdna/dna-index",
-      "ecosystem": "node",
+      "package": "dna_index",
+      "ecosystem": "pub",
       "resolvedVersion": "0.1.0",
       "via": null,
       "hash": "0x1d92b0add37a1ac7"
+    },
+    {
+      "name": "dna-scripts",
+      "package": "@ggdna/dna-scripts",
+      "ecosystem": "node",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x9ee08ef13ab4c8d3"
     },
     {
       "name": "self",
@@ -31,7 +39,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x2a90594a14522652"
+      "hash": "0xb7b292a1a91dd05f"
     }
   ],
   "claude": {
@@ -63,6 +71,10 @@
     {
       "path": ".claude/skills/push/SKILL.md",
       "hash": "0x76c357ca9933317d"
+    },
+    {
+      "path": ".claude/skills/scripts/SKILL.md",
+      "hash": "0xa12593aa0af31ed2"
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
@@ -135,6 +147,10 @@
     {
       "path": "doc/guides/install-guide/install-vscode-guide.md",
       "hash": "0xa0da6a6877bb94c2"
+    },
+    {
+      "path": "doc/guides/scripts-guide.md",
+      "hash": "0x426857c389049083"
     },
     {
       "path": "doc/hello_world.md",

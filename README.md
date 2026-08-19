@@ -22,17 +22,6 @@ publish.
 - `/publish` — releases the ticket
 - `/cleanup` — removes what the ticket left behind
 
-## Scripts
-
-- `dna/scripts/setup-github-repo.js` — applies the branch rules a new repo
-  needs, called by the create repo guide
-- `dna/scripts/rename-class.js` — renames a template project to its real
-  name
-- `dna/scripts/wait-for-pr.js` — waits for the pull request to merge
-- `dna/scripts/delete-feature-branch.js` — removes the branch after the
-  merge
-- `dna/scripts/functions/` — the helpers those scripts share
-
 ## Configuration
 
 - `dna/dot-github/workflows/quick_check.yaml` — the quick check pipeline
@@ -41,8 +30,11 @@ publish.
 ## Layers
 
 Builds on [dna_install](https://github.com/ggdna/dna_install) for the
-install overview and [dna_index](https://github.com/ggdna/dna_index) for
-the repo index every gg repo keeps.
+install overview, [dna_index](https://github.com/ggdna/dna_index) for the
+repo index every gg repo keeps, and
+[dna_scripts](https://github.com/ggdna/dna_scripts) for
+`setup-github-repo.js`, `rename-class.js`, `wait-for-pr.js` and
+`delete-feature-branch.js`, which the guides above call.
 
 It extends the `@tooling` section of the install overview through
 `dna/doc/guides/install-guide.overrides.md`: it adds `Install gg` and

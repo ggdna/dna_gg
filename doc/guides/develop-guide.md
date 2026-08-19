@@ -34,10 +34,8 @@ Use the following skills in Claude
 
 ```bash
 /commit
-/document
 /push
 /review
-/review-heavy
 /publish
 /cleanup
 ```

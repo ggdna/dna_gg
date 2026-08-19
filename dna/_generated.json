@@ -27,8 +27,8 @@
     },
     {
       "name": "dna-scripts",
-      "package": "@ggdna/dna-scripts",
-      "ecosystem": "node",
+      "package": "dna_scripts",
+      "ecosystem": "pub",
       "resolvedVersion": "0.1.0",
       "via": null,
       "hash": "0x9ee08ef13ab4c8d3"

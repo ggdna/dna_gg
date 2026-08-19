@@ -15,7 +15,7 @@
       "ecosystem": "pub",
       "resolvedVersion": "0.0.0",
       "via": null,
-      "hash": "0xeb3fa49b0f71c95c"
+      "hash": "0xbe88eb4256745ee1"
     },
     {
       "name": "dna-index",
@@ -23,7 +23,7 @@
       "ecosystem": "pub",
       "resolvedVersion": "0.0.0",
       "via": null,
-      "hash": "0x097241d3332b587b"
+      "hash": "0x1d92b0add37a1ac7"
     },
     {
       "name": "self",
@@ -31,7 +31,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x8c280f30522b8cd1"
+      "hash": "0x9e8324d859d632fb"
     }
   ],
   "claude": {
@@ -40,6 +40,14 @@
   "baseVersion": "0.2.0",
   "baseHash": "0x705e486e88a93125",
   "instances": [
+    {
+      "path": ".claude/skills/index/SKILL.md",
+      "hash": "0xc47429e51622cd7b"
+    },
+    {
+      "path": ".claude/skills/install/SKILL.md",
+      "hash": "0x29c4ded946b50053"
+    },
     {
       "path": ".github/workflows/quick_check.yaml",
       "hash": "0xa61b5062f48e430c"
@@ -58,11 +66,11 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x0baaa7fa78710625"
+      "hash": "0x3d2812a1dfb025cf"
     },
     {
       "path": "doc/guides/index-guide.md",
-      "hash": "0xdd831e4a9b1e2a3b"
+      "hash": "0xc684cc8895b98403"
     },
     {
       "path": "doc/guides/install-guide.md",
@@ -117,8 +125,8 @@
       "hash": "0x0903f7fc5224f6f1"
     },
     {
-      "path": "doc/templates/index-template.md",
-      "hash": "0x8249f77900b5a5d3"
+      "path": "doc/templates/index-template.jsonc",
+      "hash": "0x16c3a8d50c72ed6d"
     },
     {
       "path": "scripts/delete-feature-branch.js",

@@ -31,7 +31,7 @@ cd tickets/gGS-145
 
 ## Add git repositories
 
-Look at the `index.md` of each repo in .ocean and decide which repos need to
+Look at the `index.jsonc` of each repo in .ocean and decide which repos need to
 be added to the ticket.
 Make a plan for how you roughly want to implement the ticket.
 If certain parts of the implementation belong to a domain that does not yet
@@ -84,7 +84,7 @@ Afterwards load the review-light skill and execute it.
 ## Publish
 
 - Create a blog post for the current ticket
-- Update the index.md and README.md
+- Update the index.jsonc and README.md
 - Create the configuration for gg do publish
 
 Ask the user to run the following command **manually**:

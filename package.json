@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-gg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "DNA layer: gg CLI workflow guides, repo setup scripts and CI check",
   "keywords": [
     "dna",
@@ -28,8 +28,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ggdna/dna-index": "link:..\\dna_index",
-    "@ggdna/dna-install": "link:..\\dna_install"
+    "@ggdna/dna-index": "^0.1.0",
+    "@ggdna/dna-install": "^0.1.0"
   },
   "scripts": {
     "test:dart": "dart test",

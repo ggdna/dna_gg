@@ -1,6 +1,6 @@
 name: dna_gg
 description: "DNA layer: gg CLI workflow guides, repo setup scripts and CI check"
-version: 0.0.0
+version: 0.1.0
 repository: https://github.com/ggdna/dna_gg.git
 
 environment:

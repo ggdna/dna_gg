@@ -3,19 +3,59 @@
 The DNA layer for the `gg` CLI workflow: ticket, commit, push, review,
 publish.
 
-## Content
+## Guides
 
 - `dna/doc/guides/develop-guide.md`,
-  `develop-without-ai-guide.md`, `for-ai/ai-dev-guide.md` — the ticket
-  driven workflow, with and without an AI
+  `dna/doc/guides/develop-without-ai-guide.md` — the ticket driven
+  workflow, with and without an AI
+- `dna/doc/guides/for-ai/ai-dev-guide.md` — the same workflow as
+  instructions for an agent
 - `dna/doc/guides/install-guide/install-gg-guide.md`,
-  `install-gg-workspace-guide.md` — install `gg` and set up a workspace
-- `dna/doc/guides/create-repo-guide.md` — create a new repo and its
-  branch rules
-- `dna/scripts/` — the node scripts the guides call
-  (`setup-github-repo.js`, `rename-class.js`, `wait-for-pr.js`,
-  `delete-feature-branch.js`)
+  `dna/doc/guides/install-guide/install-gg-workspace-guide.md` — install
+  `gg` and set up a workspace
+
+## Skills
+
+- `/ticket` — creates a ticket and adds the repos it needs
+- `/commit` — proposes a message and commits through `gg do commit`
+- `/push` — pushes the ticket branches
+- `/publish` — releases the ticket
+- `/cleanup` — removes what the ticket left behind
+
+## Scripts
+
+- `dna/scripts/setup-github-repo.js` — applies the branch rules a new repo
+  needs, called by the create repo guide
+- `dna/scripts/rename-class.js` — renames a template project to its real
+  name
+- `dna/scripts/wait-for-pr.js` — waits for the pull request to merge
+- `dna/scripts/delete-feature-branch.js` — removes the branch after the
+  merge
+- `dna/scripts/functions/` — the helpers those scripts share
+
+## Configuration
+
 - `dna/dot-github/workflows/quick_check.yaml` — the quick check pipeline
+  every pull request has to pass
+
+## Layers
+
+Builds on [dna_install](https://github.com/ggdna/dna_install) for the
+install overview and [dna_index](https://github.com/ggdna/dna_index) for
+the repo index every gg repo keeps.
+
+It extends the `@tooling` section of the install overview through
+`dna/doc/guides/install-guide.overrides.md`: it adds `Install gg` and
+appends the `Workspace` section.
+
+## Variables
+
+- `dnaCopyrightHolder` — the name in the license header of every file
+- `dnaCompany`, `dnaGitOrg`, `dnaGitOrgUrl` — the organization repos are
+  created in
+- `dnaJiraPrefix` — the prefix of a ticket id
+- `dnaGitQuickCheckPipelineName` — the name the branch rules require
+- `dnaPubDevPublisher` — the pub.dev publisher packages are transferred to
 
 ## Usage
 
@@ -23,27 +63,14 @@ Declare it as a dev-dependency and initialize once:
 
 ```bash
 pnpm add -D @ggdna/dna-gg   # TypeScript projects
-dart pub add dev:dna_gg    # Dart projects
+dart pub add dev:dna_gg     # Dart projects
 helix init
 ```
 
 The placed test instantiates and verifies the DNA on every test run.
 
-This layer inherits from
-[dna_install](https://github.com/ggdna/dna_install) and
-[dna_index](https://github.com/ggdna/dna_index); both come along as regular
-dependencies. It extends the install overview of `dna_install`: a
-`dna/doc/guides/install-guide.overrides.md` replaces the tagged section
-`## [@tooling] Tooling`, adds `Install gg` and appends the `## Workspace`
-section pointing at the gg workspace guide.
-
-The parents are not on pub.dev or npm yet — until they are, a
-`pubspec_overrides.yaml` resolves them from the sibling folders of the
-workspace, and this package cannot be published.
-
 ## Development
 
-This repo has `role: "dna"` in `dna/_dna.json`: the `dna/` folder is
-authored by hand, never generated. The repo instantiates its own DNA — run
-`dart test` after changes; commit first (a file the DNA would overwrite
-must not carry uncommitted work).
+The `dna/` folder is hand-authored source and is never generated. The repo
+instantiates its own DNA — run `dart test` after changes; commit first, a
+file the DNA would overwrite must not carry uncommitted work.

@@ -92,17 +92,19 @@ packages:
   dna_index:
     dependency: "direct main"
     description:
-      path: "../dna_index"
-      relative: true
-    source: path
-    version: "0.0.0"
+      name: dna_index
+      sha256: "34096b10958d2ea3722ffb7be5eae7537a4592175bba2abec823915cb73b664c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   dna_install:
     dependency: "direct main"
     description:
-      path: "../dna_install"
-      relative: true
-    source: path
-    version: "0.0.0"
+      name: dna_install
+      sha256: ec338094ed3678c05eb55d8dd1106d09a82af55921089a1c98697ad20dcbf913
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   file:
     dependency: transitive
     description:
@@ -179,10 +181,10 @@ packages:
     dependency: "direct dev"
     description:
       name: helix
-      sha256: "05398d8942f858b1743ceb6e1ad7c893d45990bb7dc2b859733f7e646a8088ba"
+      sha256: "70de75c30701188e85fff9c2ed2767ce603e31b838a7412848ca22f0d2758098"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "1.0.1"
   http_multi_server:
     dependency: transitive
     description:
@@ -427,10 +429,10 @@ packages:
     dependency: transitive
     description:
       name: vm_service
-      sha256: "0016aef94fc66495ac78af5859181e3f3bf2026bd8eecc72b9565601e19ab360"
+      sha256: "5f37239c4851efcef929cea7824e76df7f2f0970aef85d66bbc430afa40e72f0"
       url: "https://pub.dev"
     source: hosted
-    version: "15.2.0"
+    version: "15.3.0"
   watcher:
     dependency: transitive
     description:

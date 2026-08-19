@@ -1,0 +1,5 @@
+# The parent DNAs are not published under these versions yet — resolve
+# them from the sibling folders of the ticket until they are.
+dependency_overrides:
+  dna_scripts:
+    path: ../dna_scripts

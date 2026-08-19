@@ -13,11 +13,14 @@ importers:
   .:
     dependencies:
       '@ggdna/dna-index':
-        specifier: link:..\dna_index
+        specifier: link:../dna_index
         version: link:../dna_index
       '@ggdna/dna-install':
-        specifier: link:..\dna_install
+        specifier: link:../dna_install
         version: link:../dna_install
+      '@ggdna/dna-scripts':
+        specifier: link:../dna_scripts
+        version: link:../dna_scripts
     devDependencies:
       '@types/node':
         specifier: ^26.2.0

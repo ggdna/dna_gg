@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.1.0 - 2026-08-19
+## 0.1.1 - 2026-08-19
 
-- First release. The gg CLI workflow guides, its scripts and the quick
-  check pipeline. Builds on dna_install and dna_index.
+### Changed
+
+- Inherit scripts from `dna_scripts` instead of shipping its own copies.
+  Same files, same content — deduplicated across the family.

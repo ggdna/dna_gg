@@ -39,7 +39,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xb7b292a1a91dd05f"
+      "hash": "0xd5744033dd70c6a3"
     }
   ],
   "claude": {
@@ -82,7 +82,7 @@
     },
     {
       "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xa61b5062f48e430c"
+      "hash": "0xf3320fb8f530a565"
     },
     {
       "path": "doc/guides/develop-guide.md",

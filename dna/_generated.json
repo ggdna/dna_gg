@@ -26,20 +26,12 @@
       "hash": "0x1d92b0add37a1ac7"
     },
     {
-      "name": "dna-scripts",
-      "package": "@ggdna/dna-scripts",
-      "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
-      "via": null,
-      "hash": "0x9ee08ef13ab4c8d3"
-    },
-    {
       "name": "self",
       "package": null,
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xd5744033dd70c6a3"
+      "hash": "0xba4401d6aa036508"
     }
   ],
   "claude": {
@@ -71,10 +63,6 @@
     {
       "path": ".claude/skills/push/SKILL.md",
       "hash": "0x76c357ca9933317d"
-    },
-    {
-      "path": ".claude/skills/scripts/SKILL.md",
-      "hash": "0xa12593aa0af31ed2"
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
@@ -149,10 +137,6 @@
       "hash": "0xa0da6a6877bb94c2"
     },
     {
-      "path": "doc/guides/scripts-guide.md",
-      "hash": "0x426857c389049083"
-    },
-    {
       "path": "doc/hello_world.md",
       "hash": "0x0903f7fc5224f6f1"
     },
@@ -169,52 +153,8 @@
       "hash": "0xdfd97f3804665811"
     },
     {
-      "path": "scripts/functions/current-branch.js",
-      "hash": "0xb9ebbadf45893278"
-    },
-    {
-      "path": "scripts/functions/directories.js",
-      "hash": "0x148d4ebb8aa75523"
-    },
-    {
-      "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
-    },
-    {
-      "path": "scripts/functions/get-version.js",
-      "hash": "0xfe46316558755cf2"
-    },
-    {
-      "path": "scripts/functions/is-clean-repo.js",
-      "hash": "0x8aa95ca51d9d6517"
-    },
-    {
-      "path": "scripts/functions/is-main-up-to-date.js",
-      "hash": "0xe1ab1826d0ddd039"
-    },
-    {
-      "path": "scripts/functions/pull-request-url.js",
-      "hash": "0x5398755a61a59928"
-    },
-    {
       "path": "scripts/functions/run-command.js",
       "hash": "0x085b390fcb9256ab"
-    },
-    {
-      "path": "scripts/functions/sync-folders.js",
-      "hash": "0x4f83165fd92ec49d"
-    },
-    {
-      "path": "scripts/rename-class.js",
-      "hash": "0xa9daec4f3ea514b7"
-    },
-    {
-      "path": "scripts/setup-github-repo.js",
-      "hash": "0x5907588070a580ca"
-    },
-    {
-      "path": "scripts/wait-for-pr.js",
-      "hash": "0x1360c661984b78a8"
     }
   ]
 }

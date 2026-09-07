@@ -27,14 +27,25 @@ publish.
 - `dna/dot-github/workflows/quick_check.yaml` — the quick check pipeline
   every pull request has to pass
 
+## Scripts
+
+- `dna/scripts/delete-feature-branch.js` — the one script this layer calls
+  itself, from `/cleanup`, with the two functions it imports:
+  `dna/scripts/functions/colors.js` and
+  `dna/scripts/functions/run-command.js`
+
+These three files are byte-identical copies of their originals in
+[dna_scripts](https://github.com/ggdna/dna_scripts). They are duplicated
+on purpose so that this layer does not drag the whole script set into
+every repo that only wants the gg workflow. A repo that wants the full
+set lists `dna_scripts` as a layer of its own — the copies are identical,
+so both layers together produce exactly the same files.
+
 ## Layers
 
 Builds on [dna_install](https://github.com/ggdna/dna_install) for the
-install overview, [dna_index](https://github.com/ggdna/dna_index) for the
-repo index every gg repo keeps, and
-[dna_scripts](https://github.com/ggdna/dna_scripts) for
-`setup-github-repo.js`, `rename-class.js`, `wait-for-pr.js` and
-`delete-feature-branch.js`, which the guides above call.
+install overview and [dna_index](https://github.com/ggdna/dna_index) for
+the repo index every gg repo keeps.
 
 It extends the `@tooling` section of the install overview through
 `dna/doc/guides/install-guide.overrides.md`: it adds `Install gg` and

@@ -9,7 +9,6 @@ environment:
 dependencies:
   dna_index: ^0.1.0
   dna_install: ^0.1.0
-  dna_scripts: ^0.1.0
 
 dev_dependencies:
   helix: ^1.0.1

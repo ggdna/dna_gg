@@ -21,12 +21,25 @@ gg do create ticket GGS-145 -m"Fix issue abc"
 cd tickets/GGS-145
 ```
 
-## 3. Choose the repos
+## 3. Choose the project management repo
+
+Every ticket belongs to a project management (PM) repo: plans, decisions and
+blog posts of a project, no code. Read the `index.md` of the repos in
+`.ocean` and propose the PM repo the ticket belongs to. If none fits, ask
+which repo to use or whether to create one.
+
+After the confirmation, add it **before** any other repo:
+
+```bash
+gg do add pm_repo
+```
+
+## 4. Choose the code repos
 
 Read the `index.md` of the candidate repos in `.ocean`. Tell the user which
 repos the ticket needs and what you roughly want to change in each one. If a
 part belongs to a domain that has no repo yet, say so and ask whether to
-create one.
+create one. A ticket that is only planned may need no code repo at all.
 
 After the confirmation:
 
@@ -34,11 +47,18 @@ After the confirmation:
 gg do add repo1 repo2
 ```
 
-## 4. Open the workspace
+## 5. Open the workspace
 
 ```bash
 gg do code
 ```
+
+## 6. Plan or implement
+
+Ask the user whether the ticket is planned first. If yes, write the plan into
+the PM repo and let the user confirm it. Then ask whether the ticket is
+implemented now or only planned — in the latter case the ticket ends with
+the PM repo alone.
 
 ## Important
 

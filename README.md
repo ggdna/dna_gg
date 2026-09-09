@@ -14,6 +14,13 @@ publish.
   `dna/doc/guides/install-guide/install-gg-workspace-guide.md` — install
   `gg` and set up a workspace
 
+## CLAUDE.md
+
+- `dna/CLAUDE.md` — points the agent to the `ai-dev-guide` and the
+  skills. helix writes it into the managed block of the consumer's
+  `CLAUDE.md` (`<!-- helix:claude_md:start/end -->`), everything outside
+  the block stays with the repo.
+
 ## Skills
 
 - `/ticket` — creates a ticket and adds the repos it needs

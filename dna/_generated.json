@@ -5,9 +5,9 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.0.1",
+      "resolvedVersion": "1.6.0",
       "via": null,
-      "hash": "0x705e486e88a93125"
+      "hash": "0x6883da335b415f9d"
     },
     {
       "name": "dna-install",
@@ -31,14 +31,15 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x97c559b0151610d4"
+      "hash": "0x9f13019b84e4b029"
     }
   ],
   "claude": {
-    "claudeMdInclude": null
+    "claudeMdInclude": null,
+    "claudeMdFromDna": true
   },
-  "baseVersion": "1.0.1",
-  "baseHash": "0x705e486e88a93125",
+  "baseVersion": "1.6.0",
+  "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
       "path": ".claude/skills/cleanup/SKILL.md",
@@ -66,7 +67,7 @@
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
-      "hash": "0xbc13efe6fa9af962"
+      "hash": "0xa86135ff5b7f5ddf"
     },
     {
       "path": ".github/workflows/quick_check.yaml",
@@ -82,7 +83,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x3d2812a1dfb025cf"
+      "hash": "0x34d8b0200c0d657b"
     },
     {
       "path": "doc/guides/index-guide.md",
@@ -118,7 +119,7 @@
     },
     {
       "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
-      "hash": "0x846766914bb56a84"
+      "hash": "0xc06dc45d20e1bf79"
     },
     {
       "path": "doc/guides/install-guide/install-github-cli-guide.md",
@@ -135,10 +136,6 @@
     {
       "path": "doc/guides/install-guide/install-vscode-guide.md",
       "hash": "0xa0da6a6877bb94c2"
-    },
-    {
-      "path": "doc/hello_world.md",
-      "hash": "0x0903f7fc5224f6f1"
     },
     {
       "path": "doc/templates/index-template.jsonc",

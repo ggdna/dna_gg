@@ -29,6 +29,23 @@ gg do create ticket gGS-145 -m"Fix issue abc"
 cd tickets/gGS-145
 ```
 
+## Choose the project management repo
+
+Every ticket belongs to a project management (PM) repo. It holds the plans,
+decisions and blog posts of a project, but no code.
+
+Look at the `index.jsonc` of each repo in .ocean and find the PM repo the
+ticket belongs to: its summary or domain talks about project management or
+planning, not about code. If one fits, propose it to the user. If none fits,
+ask the user which repo to use, or whether to create a new PM repo.
+
+After the user's confirmation, add the PM repo to the ticket **before** any
+other repo:
+
+```bash
+gg do add pm_repo
+```
+
 ## Add git repositories
 
 Look at the `index.jsonc` of each repo in .ocean and decide which repos need to
@@ -39,6 +56,9 @@ exist in the .ocean folder, consider creating a new repository.
 Ask the user about this. Also explain to the user what you roughly want to
 change in which repo to implement the ticket and let them confirm that the
 corresponding repos are added to the ticket.
+
+If the ticket is only planned (see below), the PM repo may be the only repo
+of the ticket.
 
 After the user's confirmation, add the repos to the ticket:
 
@@ -52,9 +72,23 @@ gg do add repo1 repo2
 gg do code
 ```
 
-## Implement
+## Plan (optional)
 
-Implement your features based on the guides
+Ask the user whether the ticket is planned before it is implemented.
+
+If yes, write the plan into the PM repo, following the guides of the PM repo:
+the goal, the affected repos, the rough steps and open questions. Let the user
+review the plan and revise it until they confirm it.
+
+## Implement (optional)
+
+Ask the user whether the ticket is implemented now, or whether it is only
+planned. Some tickets are only planned; the implementation follows in a later
+ticket.
+
+- Implement: implement your features based on the guides
+- Plan only: skip this step. The following steps then apply to the PM repo
+  only.
 
 ## Commit
 
@@ -86,6 +120,7 @@ Afterwards load the review-light skill and execute it.
 - Create a blog post for the current ticket
 - Update the index.jsonc and README.md
 - Create the configuration for gg do publish
+- If the ticket was only planned, publish the PM repo only
 
 Ask the user to run the following command **manually**:
 

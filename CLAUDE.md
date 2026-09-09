@@ -1,4 +1,5 @@
 <!-- helix:claude_md:start -->
+
 # gg workflow
 
 This repo is developed ticket by ticket with the `gg` CLI. Follow the
@@ -9,4 +10,5 @@ comes next:
 
 The steps are also available as skills: `/ticket`, `/commit`, `/push`,
 `/publish`, `/cleanup`.
+
 <!-- helix:claude_md:end -->

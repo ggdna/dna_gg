@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased
+## 0.4.0 - 2026-09-10
 
 ### Changed
 
 - `ai-dev-guide` and `/ticket`: read the PM repo's `doc/guides/pm-repo-guide.md`
-  when it exists (shipped by `dna_plan`) — it says how the PM repo is
-  structured and how a ticket is planned there.
+when it exists (shipped by `dna_plan`) — it says how the PM repo is
+structured and how a ticket is planned there.
 
 ## 0.3.0 - 2026-09-09
 

@@ -5,22 +5,22 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.6.1",
+      "resolvedVersion": "1.7.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
     {
       "name": "dna-install",
-      "package": "dna_install",
-      "ecosystem": "pub",
+      "package": "@ggdna/dna-install",
+      "ecosystem": "node",
       "resolvedVersion": "0.1.0",
       "via": null,
       "hash": "0xbe88eb4256745ee1"
     },
     {
       "name": "dna-index",
-      "package": "dna_index",
-      "ecosystem": "pub",
+      "package": "@ggdna/dna-index",
+      "ecosystem": "node",
       "resolvedVersion": "0.1.0",
       "via": null,
       "hash": "0x1d92b0add37a1ac7"
@@ -31,14 +31,14 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x9f13019b84e4b029"
+      "hash": "0x51ccfc15107f2e9e"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": true
   },
-  "baseVersion": "1.6.1",
+  "baseVersion": "1.7.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
-      "hash": "0xa86135ff5b7f5ddf"
+      "hash": "0x1c257bb5b8471026"
     },
     {
       "path": ".github/workflows/quick_check.yaml",
@@ -83,7 +83,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x34d8b0200c0d657b"
+      "hash": "0x5e0118ec27bc8d6a"
     },
     {
       "path": "doc/guides/index-guide.md",

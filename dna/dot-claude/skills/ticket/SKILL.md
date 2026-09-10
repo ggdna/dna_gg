@@ -34,6 +34,9 @@ After the confirmation, add it **before** any other repo:
 gg do add pm_repo
 ```
 
+Read `doc/guides/pm-repo-guide.md` of the PM repo if it exists: it says how
+the PM repo is structured and how planning works there.
+
 ## 4. Choose the code repos
 
 Read the `index.md` of the candidate repos in `.ocean`. Tell the user which
@@ -56,7 +59,8 @@ gg do code
 ## 6. Plan or implement
 
 Ask the user whether the ticket is planned first. If yes, write the plan into
-the PM repo and let the user confirm it. Then ask whether the ticket is
+the PM repo as its `pm-repo-guide.md` describes (or as its other guides do)
+and let the user confirm it. Then ask whether the ticket is
 implemented now or only planned — in the latter case the ticket ends with
 the PM repo alone.
 

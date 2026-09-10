@@ -46,6 +46,10 @@ other repo:
 gg do add pm_repo
 ```
 
+If the PM repo has `doc/guides/pm-repo-guide.md`, read it: it describes how
+the PM repo is structured and how planning works there. If the file does not
+exist, follow the guides the PM repo has.
+
 ## Add git repositories
 
 Look at the `index.jsonc` of each repo in .ocean and decide which repos need to
@@ -76,8 +80,9 @@ gg do code
 
 Ask the user whether the ticket is planned before it is implemented.
 
-If yes, write the plan into the PM repo, following the guides of the PM repo:
-the goal, the affected repos, the rough steps and open questions. Let the user
+If yes, write the plan into the PM repo, following its
+`doc/guides/pm-repo-guide.md` if present, otherwise its other guides: the
+goal, the affected repos, the rough steps and open questions. Let the user
 review the plan and revise it until they confirm it.
 
 ## Implement (optional)

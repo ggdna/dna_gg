@@ -31,7 +31,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x9f13019b84e4b029"
+      "hash": "0x51ccfc15107f2e9e"
     }
   ],
   "claude": {
@@ -67,7 +67,7 @@
     },
     {
       "path": ".claude/skills/ticket/SKILL.md",
-      "hash": "0xa86135ff5b7f5ddf"
+      "hash": "0x1c257bb5b8471026"
     },
     {
       "path": ".github/workflows/quick_check.yaml",
@@ -83,7 +83,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x34d8b0200c0d657b"
+      "hash": "0x5e0118ec27bc8d6a"
     },
     {
       "path": "doc/guides/index-guide.md",

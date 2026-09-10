@@ -189,10 +189,10 @@ packages:
     dependency: "direct dev"
     description:
       name: helix
-      sha256: "6aa59015fdd276cc376694f0d8c7c51c01bc897f3b599f0addfb9030870b7058"
+      sha256: "0070d92e6074c095c1e17bcb7b3cb49765d908c335ff9c43e0d0e8f62b1f21ca"
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.1"
+    version: "1.7.0"
   http_multi_server:
     dependency: transitive
     description:

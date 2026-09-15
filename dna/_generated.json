@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.7.0",
+      "resolvedVersion": "1.8.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -13,7 +13,7 @@
       "name": "dna-install",
       "package": "@ggdna/dna-install",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.1.1",
       "via": null,
       "hash": "0xbe88eb4256745ee1"
     },
@@ -21,7 +21,7 @@
       "name": "dna-index",
       "package": "@ggdna/dna-index",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.1.1",
       "via": null,
       "hash": "0x1d92b0add37a1ac7"
     },
@@ -31,19 +31,19 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x51ccfc15107f2e9e"
+      "hash": "0x5b707abead2f6ae7"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": true
   },
-  "baseVersion": "1.7.0",
+  "baseVersion": "1.8.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
       "path": ".claude/skills/cleanup/SKILL.md",
-      "hash": "0xc5c7b7940ab51b83"
+      "hash": "0xeaa18dbc86a24731"
     },
     {
       "path": ".claude/skills/commit/SKILL.md",
@@ -140,18 +140,6 @@
     {
       "path": "doc/templates/index-template.jsonc",
       "hash": "0x16c3a8d50c72ed6d"
-    },
-    {
-      "path": "scripts/delete-feature-branch.js",
-      "hash": "0x219ac0a3635ee644"
-    },
-    {
-      "path": "scripts/functions/colors.js",
-      "hash": "0xdfd97f3804665811"
-    },
-    {
-      "path": "scripts/functions/run-command.js",
-      "hash": "0x085b390fcb9256ab"
     }
   ]
 }

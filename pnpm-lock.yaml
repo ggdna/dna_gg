@@ -9,31 +9,31 @@ importers:
   .:
     dependencies:
       '@ggdna/dna-index':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.1
+        version: 0.1.1
       '@ggdna/dna-install':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.1
+        version: 0.1.1
     devDependencies:
       '@types/node':
-        specifier: ^26.5.0
-        version: 26.5.0
+        specifier: ^26.6.1
+        version: 26.6.1
       prettier:
         specifier: ^3.9.6
         version: 3.9.6
 
 packages:
 
-  '@ggdna/dna-index@0.1.0':
-    resolution: {integrity: sha512-/yLDaN/mdiM707/CjwJsBsL8KkHlSgV11U1g//fMnkX+6w7cShD3LgHvFvReH8pJYxbxs/NaGrlx/cJQ4/TydA==}
+  '@ggdna/dna-index@0.1.1':
+    resolution: {integrity: sha512-Qfm44Wp4ttDOkpuFXZXHOIQU8b8ABOkM+LLLYZogQdxtXxvEUUm6Q/rMqZFei9xsZnt6EWH/QYO/oL14GI2Yyg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-install@0.1.0':
-    resolution: {integrity: sha512-p67zCD2QduMYEWA9RWaUbGoQj9ttjDd1Pzx6mQVM41RvMPId2O2yDmK4n25YzFwv3t0LBhzO7M1tQ9pk7BJPiw==}
+  '@ggdna/dna-install@0.1.1':
+    resolution: {integrity: sha512-ATxgky3QUwDDxq5d81zBySMi2tJmPGnti+DZH3C2KhuRcJwuPQFeacDLPiUJKa6F894fPH8E+Jt4mjfj3x60Pg==}
     engines: {node: '>=22'}
 
-  '@types/node@26.5.0':
-    resolution: {integrity: sha512-dVSGpriSoCgz8WnDNTuSSuSv1PC/ALXihO4ulRZt7Md8k9mlbdin3lGOcDE8SnWOgf513ByWlXd7BK4azmyg/A==}
+  '@types/node@26.6.1':
+    resolution: {integrity: sha512-VqGJBMCtdhqkBUCcBLvywI0NJ+KLuVzgNnlBUNFOQjqVxzo2lxLUNg1DSey8+u2u6ktswSAxg+s68QLzWHNOuA==}
 
   prettier@3.9.6:
     resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
@@ -45,11 +45,11 @@ packages:
 
 snapshots:
 
-  '@ggdna/dna-index@0.1.0': {}
+  '@ggdna/dna-index@0.1.1': {}
 
-  '@ggdna/dna-install@0.1.0': {}
+  '@ggdna/dna-install@0.1.1': {}
 
-  '@types/node@26.5.0':
+  '@types/node@26.6.1':
     dependencies:
       undici-types: 8.9.0
 

@@ -31,7 +31,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xa3efa5672f2c20da"
+      "hash": "0xc8bd6907a7c9c2d3"
     }
   ],
   "claude": {
@@ -43,7 +43,7 @@
   "instances": [
     {
       "path": ".claude/skills/gg/SKILL.md",
-      "hash": "0x011bd4479c86e66c"
+      "hash": "0x47c38a7911619719"
     },
     {
       "path": ".claude/skills/gg_cleanup/SKILL.md",

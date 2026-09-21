@@ -1,6 +1,6 @@
 ---
-name: cleanup
-description: Removes what a published ticket left behind — feature branches, the ticket folder, and a stale workspace. Use when the user says "/cleanup" or asks to clean up after a release.
+name: gg-cleanup
+description: Removes what a published ticket left behind — feature branches, the ticket folder, and a stale workspace. Use when the user says "/gg-cleanup" or asks to clean up after a release.
 ---
 
 # Clean up after the publish

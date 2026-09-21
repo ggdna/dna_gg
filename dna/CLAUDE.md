@@ -6,5 +6,6 @@ comes next:
 
 @doc/guides/for-ai/ai-dev-guide.md
 
-The steps are also available as skills: `/ticket`, `/commit`, `/push`,
-`/publish`, `/cleanup`.
+The steps are also available as skills: `/gg-ticket`, `/gg-commit`,
+`/gg-push`, `/gg-publish`, `/gg-cleanup`. `/gg` lists them and says which
+one comes next.

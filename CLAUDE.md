@@ -8,7 +8,8 @@ comes next:
 
 @doc/guides/for-ai/ai-dev-guide.md
 
-The steps are also available as skills: `/ticket`, `/commit`, `/push`,
-`/publish`, `/cleanup`.
+The steps are also available as skills: `/gg_ticket`, `/gg_commit`,
+`/gg_push`, `/gg_publish`, `/gg_cleanup`. `/gg` lists them and says which
+one comes next.
 
 <!-- helix:claude_md:end -->

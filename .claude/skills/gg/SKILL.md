@@ -9,7 +9,8 @@ Every skill of this workflow carries the `gg-` prefix. Print the list
 below, in this order — it is the order of a ticket's life.
 
 - `/gg-ticket` — creates a ticket and adds the repos it needs
-- `/gg-commit` — proposes a message and commits through `gg do commit`
+- `/gg-commit` — proposes a message and commits through `gg do commit`,
+  or `gg one do commit` inside a single repo
 - `/gg-push` — pushes the ticket branches with `gg do push`
 - `/gg-publish` — prepares the release and hands `gg do publish` over to
   the user

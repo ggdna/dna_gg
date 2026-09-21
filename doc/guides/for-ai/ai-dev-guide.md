@@ -112,6 +112,15 @@ ticket.
 gg do commit
 ```
 
+`gg do commit` and `gg can commit` act on all repos of the ticket. When you
+are inside a single repo instead of the ticket folder, use the standalone
+form on that repo:
+
+```bash
+gg one can commit
+gg one do commit
+```
+
 ## Push
 
 ```bash

@@ -16,11 +16,11 @@ importers:
         version: 0.1.1
     devDependencies:
       '@types/node':
-        specifier: ^26.6.1
-        version: 26.6.1
+        specifier: ^26.6.2
+        version: 26.6.2
       prettier:
-        specifier: ^3.9.6
-        version: 3.9.6
+        specifier: ^3.9.8
+        version: 3.9.8
 
 packages:
 
@@ -32,11 +32,11 @@ packages:
     resolution: {integrity: sha512-ATxgky3QUwDDxq5d81zBySMi2tJmPGnti+DZH3C2KhuRcJwuPQFeacDLPiUJKa6F894fPH8E+Jt4mjfj3x60Pg==}
     engines: {node: '>=22'}
 
-  '@types/node@26.6.1':
-    resolution: {integrity: sha512-VqGJBMCtdhqkBUCcBLvywI0NJ+KLuVzgNnlBUNFOQjqVxzo2lxLUNg1DSey8+u2u6ktswSAxg+s68QLzWHNOuA==}
+  '@types/node@26.6.2':
+    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -49,10 +49,10 @@ snapshots:
 
   '@ggdna/dna-install@0.1.1': {}
 
-  '@types/node@26.6.1':
+  '@types/node@26.6.2':
     dependencies:
       undici-types: 8.9.0
 
-  prettier@3.9.6: {}
+  prettier@3.9.8: {}
 
   undici-types@8.9.0: {}

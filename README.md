@@ -23,11 +23,14 @@ publish.
 
 ## Skills
 
-- `/ticket` — creates a ticket and adds the repos it needs
-- `/commit` — proposes a message and commits through `gg do commit`
-- `/push` — pushes the ticket branches
-- `/publish` — releases the ticket
-- `/cleanup` — removes what the ticket left behind
+All skills of this layer are prefixed with `gg-`:
+
+- `/gg` — lists the skills below and says which one comes next
+- `/gg-ticket` — creates a ticket and adds the repos it needs
+- `/gg-commit` — proposes a message and commits through `gg do commit`
+- `/gg-push` — pushes the ticket branches
+- `/gg-publish` — releases the ticket
+- `/gg-cleanup` — removes what the ticket left behind
 
 ## Configuration
 
@@ -37,7 +40,7 @@ publish.
 ## Scripts
 
 - `dna/scripts/delete-feature-branch.js` — the one script this layer calls
-  itself, from `/cleanup`, with the two functions it imports:
+  itself, from `/gg-cleanup`, with the two functions it imports:
   `dna/scripts/functions/colors.js` and
   `dna/scripts/functions/run-command.js`
 

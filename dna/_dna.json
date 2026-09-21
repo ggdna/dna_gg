@@ -8,7 +8,7 @@
   // every gg repo follows. Parents first, this layer wins.
   //
   // dna_scripts is deliberately not a parent: this layer calls exactly one
-  // of its scripts — `delete-feature-branch.js` from the /cleanup skill —
+  // of its scripts — `delete-feature-branch.js` from the /gg-cleanup skill —
   // and carries its own copy of it under dna/scripts/ instead. A consumer
   // that wants the full script set lists dna_scripts itself; the copies
   // here are byte-identical, so having both layers changes nothing.

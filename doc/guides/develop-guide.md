@@ -27,17 +27,17 @@ claude
 Start the development in Claude
 
 ```bash
-/gg_ticket
+/gg-ticket
 ```
 
 Use the following skills in Claude
 
 ```bash
-/gg_commit
-/gg_push
+/gg-commit
+/gg-push
 /review
-/gg_publish
-/gg_cleanup
+/gg-publish
+/gg-cleanup
 ```
 
 `/gg` lists the skills of the workflow and says which one comes next.

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@ggdna/dna-index':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
       '@ggdna/dna-install':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
     devDependencies:
       '@types/node':
         specifier: ^26.6.2
@@ -24,12 +24,12 @@ importers:
 
 packages:
 
-  '@ggdna/dna-index@0.1.1':
-    resolution: {integrity: sha512-Qfm44Wp4ttDOkpuFXZXHOIQU8b8ABOkM+LLLYZogQdxtXxvEUUm6Q/rMqZFei9xsZnt6EWH/QYO/oL14GI2Yyg==}
+  '@ggdna/dna-index@0.1.2':
+    resolution: {integrity: sha512-uj7kWBhaicZqWzXRk9lXrWUdPjOg4ZMGk1FadzQfYm7ZbH3iwATJX41ukqpHLmLgDtPyYh+NjIGF8k3VNxmHxA==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-install@0.1.1':
-    resolution: {integrity: sha512-ATxgky3QUwDDxq5d81zBySMi2tJmPGnti+DZH3C2KhuRcJwuPQFeacDLPiUJKa6F894fPH8E+Jt4mjfj3x60Pg==}
+  '@ggdna/dna-install@0.1.2':
+    resolution: {integrity: sha512-QsBtZiT95EE6+XLX+0Cm9GevBmljqiiXQBw4Ki0R5s5R6eWRM3eNUJhF5kaHms/mcvUjvo/TpHJwPevxt73UJw==}
     engines: {node: '>=22'}
 
   '@types/node@26.6.2':
@@ -45,9 +45,9 @@ packages:
 
 snapshots:
 
-  '@ggdna/dna-index@0.1.1': {}
+  '@ggdna/dna-index@0.1.2': {}
 
-  '@ggdna/dna-install@0.1.1': {}
+  '@ggdna/dna-install@0.1.2': {}
 
   '@types/node@26.6.2':
     dependencies:

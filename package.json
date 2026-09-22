@@ -28,8 +28,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ggdna/dna-index": "^0.1.1",
-    "@ggdna/dna-install": "^0.1.1"
+    "@ggdna/dna-index": "^0.1.2",
+    "@ggdna/dna-install": "^0.1.2"
   },
   "scripts": {
     "test:dart": "dart test",

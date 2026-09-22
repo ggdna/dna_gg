@@ -4,20 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@ggdna/dna-index': link:../dna_index
-  '@ggdna/dna-install': link:../dna_install
-
 importers:
 
   .:
     dependencies:
       '@ggdna/dna-index':
-        specifier: link:..\dna_index
-        version: link:../dna_index
+        specifier: ^0.1.2
+        version: 0.1.2
       '@ggdna/dna-install':
-        specifier: link:..\dna_install
-        version: link:../dna_install
+        specifier: ^0.1.2
+        version: 0.1.2
     devDependencies:
       '@types/node':
         specifier: ^26.6.2
@@ -27,6 +23,14 @@ importers:
         version: 3.9.8
 
 packages:
+
+  '@ggdna/dna-index@0.1.2':
+    resolution: {integrity: sha512-uj7kWBhaicZqWzXRk9lXrWUdPjOg4ZMGk1FadzQfYm7ZbH3iwATJX41ukqpHLmLgDtPyYh+NjIGF8k3VNxmHxA==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-install@0.1.2':
+    resolution: {integrity: sha512-QsBtZiT95EE6+XLX+0Cm9GevBmljqiiXQBw4Ki0R5s5R6eWRM3eNUJhF5kaHms/mcvUjvo/TpHJwPevxt73UJw==}
+    engines: {node: '>=22'}
 
   '@types/node@26.6.2':
     resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
@@ -40,6 +44,10 @@ packages:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
 snapshots:
+
+  '@ggdna/dna-index@0.1.2': {}
+
+  '@ggdna/dna-install@0.1.2': {}
 
   '@types/node@26.6.2':
     dependencies:

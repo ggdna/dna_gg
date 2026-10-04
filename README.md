@@ -32,11 +32,6 @@ All skills of this layer are prefixed with `gg-`:
 - `/gg-publish` — releases the ticket
 - `/gg-cleanup` — removes what the ticket left behind
 
-## Configuration
-
-- `dna/dot-github/workflows/quick_check.yaml` — the quick check pipeline
-  every pull request has to pass
-
 ## Scripts
 
 - `dna/scripts/delete-feature-branch.js` — the one script this layer calls

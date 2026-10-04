@@ -5,12 +5,13 @@
 
   // The parent DNAs. dna_install brings the install overview this layer
   // extends with the gg install guides, dna_index the index conventions
-  // every gg repo follows. Parents first, this layer wins.
+  // every gg repo follows, dna_github the GitHub repo setup and the quick
+  // check workflow. Parents first, this layer wins.
   //
   // dna_scripts is deliberately not a parent: this layer calls exactly one
   // of its scripts — `delete-feature-branch.js` from the /gg-cleanup skill —
   // and carries its own copy of it under dna/scripts/ instead. A consumer
   // that wants the full script set lists dna_scripts itself; the copies
   // here are byte-identical, so having both layers changes nothing.
-  "layers": ["dna_install", "dna_index"]
+  "layers": ["dna_install", "dna_index", "dna_github"]
 }

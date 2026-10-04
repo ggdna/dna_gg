@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-gg",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "DNA layer: gg CLI workflow guides, repo setup scripts and CI check",
   "keywords": [
     "dna",
@@ -28,6 +28,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@ggdna/dna-github": "^0.0.2",
     "@ggdna/dna-index": "^0.1.2",
     "@ggdna/dna-install": "^0.1.2"
   },
@@ -39,7 +40,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/node": "^26.6.3",
+    "@types/node": "^26.6.4",
     "prettier": "^3.9.9"
   }
 }

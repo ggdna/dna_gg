@@ -26,12 +26,20 @@
       "hash": "0x1d92b0add37a1ac7"
     },
     {
+      "name": "dna-github",
+      "package": "@ggdna/dna-github",
+      "ecosystem": "node",
+      "resolvedVersion": "0.0.2",
+      "via": null,
+      "hash": "0xae24c13573219f91"
+    },
+    {
       "name": "self",
       "package": null,
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x07dc3242e9b7bbc2"
+      "hash": "0xc0e2cebcfa39b9d7"
     }
   ],
   "claude": {
@@ -72,6 +80,10 @@
     {
       "path": ".claude/skills/install/SKILL.md",
       "hash": "0x29c4ded946b50053"
+    },
+    {
+      "path": ".github/workflows/quick_check.yaml",
+      "hash": "0xf3320fb8f530a565"
     },
     {
       "path": "doc/guides/develop-guide.md",
@@ -140,6 +152,14 @@
     {
       "path": "doc/templates/index-template.jsonc",
       "hash": "0x16c3a8d50c72ed6d"
+    },
+    {
+      "path": "guides/setup-github-guide.md",
+      "hash": "0x8681f11bbfaa0c00"
+    },
+    {
+      "path": "scripts/setup-github-repo.js",
+      "hash": "0xc05910cfe214fe3a"
     }
   ]
 }

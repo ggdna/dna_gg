@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@ggdna/dna-github':
+        specifier: ^0.0.2
+        version: 0.0.2
       '@ggdna/dna-index':
         specifier: ^0.1.2
         version: 0.1.2
@@ -23,6 +26,10 @@ importers:
         version: 3.9.9
 
 packages:
+
+  '@ggdna/dna-github@0.0.2':
+    resolution: {integrity: sha512-5hiwkiHtGz6k0SserDj3FcosGdcW3LWL34KmgDK33tP9k0E5jx8k+pLm19PJrt/qw8NpresDJP/8z5BuoLixvw==}
+    engines: {node: '>=22'}
 
   '@ggdna/dna-index@0.1.2':
     resolution: {integrity: sha512-uj7kWBhaicZqWzXRk9lXrWUdPjOg4ZMGk1FadzQfYm7ZbH3iwATJX41ukqpHLmLgDtPyYh+NjIGF8k3VNxmHxA==}
@@ -44,6 +51,8 @@ packages:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
 snapshots:
+
+  '@ggdna/dna-github@0.0.2': {}
 
   '@ggdna/dna-index@0.1.2': {}
 

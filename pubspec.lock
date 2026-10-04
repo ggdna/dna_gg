@@ -89,6 +89,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.7"
+  dna_github:
+    dependency: "direct main"
+    description:
+      name: dna_github
+      sha256: "5807a95fc993ba4596cebf3fd9b38727e6c5bc006279bc97de1ae6c107aa9124"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   dna_index:
     dependency: "direct main"
     description:

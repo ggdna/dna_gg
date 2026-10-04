@@ -74,10 +74,6 @@
       "hash": "0x29c4ded946b50053"
     },
     {
-      "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xf3320fb8f530a565"
-    },
-    {
       "path": "doc/guides/develop-guide.md",
       "hash": "0xc31d5f25f496a9d6"
     },

@@ -14,13 +14,13 @@ importers:
   .:
     dependencies:
       '@ggdna/dna-github':
-        specifier: link:../dna_github
+        specifier: link:..\dna_github
         version: link:../dna_github
       '@ggdna/dna-index':
-        specifier: link:../dna_index
+        specifier: link:..\dna_index
         version: link:../dna_index
       '@ggdna/dna-install':
-        specifier: link:../dna_install
+        specifier: link:..\dna_install
         version: link:../dna_install
     devDependencies:
       '@types/node':

@@ -13,5 +13,9 @@
   // and carries its own copy of it under dna/scripts/ instead. A consumer
   // that wants the full script set lists dna_scripts itself; the copies
   // here are byte-identical, so having both layers changes nothing.
-  "layers": ["dna_install", "dna_index", "dna_github"]
+  "layers": ["dna_install", "dna_index", "dna_github"],
+
+  // dna/_vars.json names the quick check pipeline every gg repo runs, so
+  // the layers below need not set it again.
+  "mustOverride": { "dnaGitQuickCheckPipelineName": false }
 }

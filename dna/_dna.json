@@ -1,7 +1,7 @@
 {
   // This package is a DNA layer: dna/ is hand-authored source and is the
   // last layer of its own instantiation.
-  "version": 1,
+  "version": 2,
 
   // The parent DNAs. dna_install brings the install overview this layer
   // extends with the gg install guides, dna_index the index conventions
@@ -16,6 +16,10 @@
   "layers": ["dna_install", "dna_index", "dna_github"],
 
   // dna/_vars.json names the quick check pipeline every gg repo runs, so
-  // the layers below need not set it again.
-  "mustOverride": { "dnaGitQuickCheckPipelineName": false }
+  // the layers below need not set it again. The copyright holder names
+  // the organization: every layer listing this one sets it itself.
+  "mustOverride": {
+    "dnaGitQuickCheckPipelineName": false,
+    "dnaCopyrightHolder": true
+  }
 }

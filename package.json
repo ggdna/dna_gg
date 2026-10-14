@@ -8,12 +8,12 @@
     "conventions",
     "scaffolding"
   ],
-  "homepage": "https://github.com/ggdna/dna_gg",
-  "bugs": "https://github.com/ggdna/dna_gg/issues",
+  "homepage": "https://github.com/ggsuite/dna_gg",
+  "bugs": "https://github.com/ggsuite/dna_gg/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggdna/dna_gg.git"
+    "url": "git+https://github.com/ggsuite/dna_gg.git"
   },
   "type": "module",
   "files": [

@@ -16,10 +16,14 @@
   "layers": ["dna_install", "dna_index", "dna_github"],
 
   // dna/_vars.json names the quick check pipeline every gg repo runs, so
-  // the layers below need not set it again. The copyright holder names
-  // the organization: every layer listing this one sets it itself.
+  // the layers below need not set it again. The copyright holder, the
+  // company of the install guide and the ticket prefix of the AI dev
+  // guide name the organization: every layer listing this one sets them
+  // itself.
   "mustOverride": {
     "dnaGitQuickCheckPipelineName": false,
-    "dnaCopyrightHolder": true
+    "dnaCopyrightHolder": true,
+    "dnaCompany": true,
+    "dnaJiraPrefix": true
   }
 }

@@ -65,6 +65,11 @@ appends the `Workspace` section.
 - `dnaGitQuickCheckPipelineName` — the name the branch rules require
 - `dnaPubDevPublisher` — the pub.dev publisher packages are transferred to
 
+`dnaCopyrightHolder`, `dnaCompany` and `dnaJiraPrefix` name the
+organization, so they are never inherited: every layer or project listing
+this one sets them in its own `dna/_vars.json`. `helix init` and
+`helix add` ask for the missing ones.
+
 ## Usage
 
 Declare it as a dev-dependency and initialize once:

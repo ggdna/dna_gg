@@ -22,15 +22,15 @@ question and never as a plain prose question:
 
 - Replace `~/dev/` by the workspace directory from the memory
 - Ask for the workspace directory if none is known
-- Replace `dnaJiraPrefix-145` by the ticket ID you asked for
+- Replace `DnaJiraPrefix-145` by the ticket ID you asked for
 - Replace `Fix issue abc` by the ticket title you asked for
 
 ## Create a ticket
 
 ```bash
 cd ~/dev/ # workspace
-gg do create ticket dnaJiraPrefix-145 -m"Fix issue abc"
-cd tickets/dnaJiraPrefix-145
+gg do create ticket DnaJiraPrefix-145 -m"Fix issue abc"
+cd tickets/DnaJiraPrefix-145
 ```
 
 ## Choose the project management repo — or work without one
